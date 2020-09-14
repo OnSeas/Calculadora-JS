@@ -1,0 +1,11 @@
+/* Projeto de uma calculadora feita utilizando html, css e JavaScript.
+Feiro unicamente com propositos de aprendizado.
+Por Osmar Januario de Souza Neto */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #444;
+}

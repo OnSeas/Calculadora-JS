@@ -7,5 +7,73 @@ Por Osmar Januario de Souza Neto */
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+body{
+    background-color: #222;
+}
+
+.container{
     background-color: #444;
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+}
+
+#tela{
+    height: 180px;
+    width: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: right;
+    color: #fff;
+
+    background-color: #444;
+    border: none;
+
+    padding: 20px;
+}
+
+.linha{
+    margin: 0 10px;
+}
+
+.linha input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #fff;
+
+    width: 23.5%;
+    height: 90px;
+
+    margin: 0.5% 0.25%;
+
+    background-color: #222;
+    border: none;
+
+    border-radius: 10px;
+
+    transition: 0.5s ease all;
+}
+
+.linha input:hover{
+    background-color: #555;
+}
+
+.linha input:disabled{
+    background-color: #222;
+    color: #aaa;
+}
+
+.linha .equacao{
+    background-color: #333;
+}
+
+.linha .igual{
+    background-color: #1a5bac;
+}
+
+.linha .igual:hover{
+    background-color: #2b7cdf;
 }

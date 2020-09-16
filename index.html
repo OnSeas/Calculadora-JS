@@ -8,40 +8,53 @@ Por Osmar Januario de Souza Neto -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- Link para arquivos CSS -->
         <link rel="stylesheet" href="css/style.css">
 
+        <!-- Link para arquivo JS -->
         <script src="js/main.js"></script>
 
         <title>Calculadora</title>
     </head>
+
     <body>
         <div class="container">
+
+            <!-- Formulário em que é construida a calculadora -->
             <form action="" name="calculadora">
+
+                <!-- input que servira como tela da calculadora -->
                 <input type="text" name="tela" id="tela" disabled>
+
+                <!-- Divisão das linhas da calculadora -->
                 <div class="linha">
                     <input type="button" class="equacao" value="&radic;" onclick="botao(value)" disabled>
                     <input type="button" class="equacao" value="x&#178;" onclick="botao(value)" disabled>
                     <input type="button" class="equacao" value="C" onclick="apaga()">
                     <input type="button" class="equacao" value="&divide;" onclick="botao('/')">
                 </div>
+
                 <div class="linha">
                     <input type="button" value="7" onclick="botao(value)">
                     <input type="button" value="8" onclick="botao(value)">
                     <input type="button" value="9" onclick="botao(value)">
                     <input type="button" class="equacao" value="x" onclick="botao('*')">
                 </div>
+
                 <div class="linha">
                     <input type="button" value="4" onclick="botao(value)">
                     <input type="button" value="5" onclick="botao(value)">
                     <input type="button" value="6" onclick="botao(value)">
                     <input type="button" class="equacao" value="-" onclick="botao(value)">
                 </div>
+
                 <div class="linha">
                     <input type="button" value="1" onclick="botao(value)">
                     <input type="button" value="2" onclick="botao(value)">
                     <input type="button" value="3" onclick="botao(value)">
                     <input type="button" class="equacao" value="+" onclick="botao(value)">
                 </div>
+
                 <div class="linha">
                     <input type="button" value=" " disabled>
                     <input type="button" value="0" onclick="botao(value)">

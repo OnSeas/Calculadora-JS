@@ -2,17 +2,18 @@
  Feiro unicamente com propositos de aprendizado.
  Por Osmar Januario de Souza Neto */
 
- var Valor;
+ var ValorEscrito;
+ var Result;
 
  function botao(num){
-    Valor = document.calculadora.tela.value += num;
+    ValorEscrito = document.calculadora.tela.value += num; // Adiciona na string o valor do botão digitado. 
  }
 
  function apaga(){
-    document.calculadora.tela.value = "";
+    document.calculadora.tela.value = ""; // Coloca a String que aparece no input tela igual a vazio.
  }
 
  function calcula(){
-    Resultado = eval(Valor);
-    document.calculadora.tela.value = Resultado;
+    Result = eval(ValorEscrito); // Calcula toda a string que aparece na tela
+    document.calculadora.tela.value = Result; // Imprime o resultado no input tela.
  }

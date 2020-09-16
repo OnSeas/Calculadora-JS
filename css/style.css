@@ -2,6 +2,8 @@
 Feiro unicamente com propositos de aprendizado.
 Por Osmar Januario de Souza Neto */
 
+/* ------------- BASIC STEUP ------------- */
+
 * {
     padding: 0;
     margin: 0;
@@ -20,6 +22,8 @@ body{
     margin: auto;
 }
 
+/* ------------- Tela ------------- */
+
 #tela{
     height: 180px;
     width: 100%;
@@ -34,6 +38,8 @@ body{
 
     padding: 20px;
 }
+
+/* ------------- Teclado ------------- */
 
 .linha{
     margin: 0 10px;

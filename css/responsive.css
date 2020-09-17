@@ -1,0 +1,96 @@
+/* Projeto de uma calculadora feita utilizando html, css e JavaScript.
+Feiro unicamente com propositos de aprendizado.
+Por Osmar Januario de Souza Neto */
+
+/* Arquivo que deixa o site responsivo */
+
+/* ------------- Largura ------------- */
+
+@media screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #tela{
+        font-size: 45px;
+    }
+
+    .linha{
+        margin: 0 5px 0 15px;
+    }
+
+    .linha input{
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #tela{
+        height: 220px;
+    }
+    .linha input{
+        height: 80px;
+    }
+}
+
+/* ------------- Altura ------------- */
+
+@media screen and (max-height: 630px){
+    .linha input{
+        height: 75px;
+    }
+}
+
+@media screen and (min-height: 680px){
+    .linha input{
+        height: 100px;
+    }
+}
+
+@media (max-width: 1080px) and (min-height: 750px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (min-height: 800px){
+    .linha input{
+        height: 120px;
+    }
+}
+
+@media screen and (min-height: 1000px){
+    #tela{
+        height: 340px;
+        font-size: 90px;
+    }
+
+    .linha input{
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-height: 1300px){
+    #tela{
+        height: 510px;
+        font-size: 120px;
+    }
+
+    .linha input{
+        height: 150px;
+        font-size: 65px;
+    }
+}
+
+/* ------------- Ajustes específicos ------------- */
+
+@media (min-height: 800px) and (max-width: 400px){
+    #tela{
+        height: 280px;
+    }
+    .linha input{
+        height: 100px;
+    }
+}

@@ -6,7 +6,7 @@ Por Osmar Januario de Souza Neto */
 
 /* ------------- Largura ------------- */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     .container{
         width: 100%;
     }
@@ -37,19 +37,27 @@ Por Osmar Januario de Souza Neto */
 
 /* ------------- Altura ------------- */
 
+@media screen and (max-height: 412px){
+    body{
+        background-color: #444;
+    }
+
+    .linha input{
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-height: 630px){
     .linha input{
         height: 75px;
     }
 }
 
-@media screen and (min-height: 680px){
+@media screen and (min-height: 730px){
     .linha input{
         height: 100px;
     }
-}
-
-@media (max-width: 1080px) and (min-height: 750px){
+    
     .container{
         width: 100%;
     }
